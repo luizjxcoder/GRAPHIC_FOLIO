@@ -7,7 +7,7 @@ body {
 .gradient {
   height: 100%;
   width: 100%;
-  background: linear-gradient(100deg, #ffffff, #000000, #fac033, #f7b41b);
+  background: linear-gradient(95deg, #ffffff, #000000, #f9b419);
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
 }
@@ -39,7 +39,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 h1,
@@ -275,9 +275,11 @@ textarea {
 }
 .main-header-link {
   color: inherit;
+  transition: 0.8s;
 }
 .main-header-link:hover {
-  color: #49bf9d;
+  color: #f9b419;
+  font-size: 20px;
 }
 
 .main-content {
@@ -288,7 +290,7 @@ textarea {
 }
 
 .main-header-link img {
-  border-radius: 50%;
+  border-radius: 0%;
   overflow: hidden;
 }
 
