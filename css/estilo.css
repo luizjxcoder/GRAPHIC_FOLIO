@@ -351,14 +351,15 @@ textarea {
 }
 
 .col-2 {
-  width: 48.5%;
-  float: left;
+  width: 49%;
+ float: left;
 }
 .col-2:first-child {
-  margin-right: 1.5%;
+  width: 49%;
+  margin-right: 0.1%;
 }
 .col-2:last-child {
-  margin-left: 1.5%;
+  margin-left: 0.1%;
 }
 .col-2-3 {
   width: 66%;
