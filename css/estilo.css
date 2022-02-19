@@ -37,7 +37,6 @@ a:hover {
 p {
   margin: 0 0 2em;
   padding-right: 35%;
-  
 }
 
 img {
@@ -75,10 +74,6 @@ h6 {
   font-size: 15px;
 }
 
-sub,
-sup {
-  font-size: 12px;
-}
 blockquote {
   border-left: 5px solid #efefef;
   margin: 2em 0;
@@ -89,20 +84,6 @@ blockquote p {
 }
 blockquote p:last-child {
   margin-bottom: 0;
-}
-
-code {
-  background: #f7f7f7;
-  border-radius: 0.35em;
-  border: 2px solid #efefef;
-  font-size: 0.9em;
-  padding: 0.25em 0.65em;
-  font-family: "courier new", monospace;
-  color: #929292;
-}
-
-pre code {
-  display: block;
 }
 
 ul,
@@ -176,30 +157,32 @@ textarea {
 }
 
 .button-default {
-  background-color: #49bf9d;
-  border: 3px solid #49bf9d;
+  background-color: #f9b419;
+  border: 3px solid #f9b419;
   color: white;
   padding: 0.75em 1.5em;
   border-radius: 5px;
-  font-size: 0.8em;
+  font-size: 1em;
+  text-transform: uppercase;
   display: inline-block;
   width: auto;
   transition: all 0.5s;
   cursor: pointer;
 }
 .button-default:hover {
-  background-color: #5ddeb9;
+  background-color: #3d3d3d;
   border-color: transparent;
 }
 .button-default-stroke {
-  background-color: white;
-  border-color: #efefef;
-  color: inherit;
+  background-color: #f9b419;
+  border: 3px solid #f9b419;
+  color: white;
+  transition: all 0.5s;
 }
 .button-default-stroke:hover {
-  color: #49bf9d;
-  border-color: #49bf9d;
-  background-color: white;
+  color: white;
+  border-color: transparent;
+  background-color: #3d3d3d;
 }
 
 .button-default-small {
@@ -217,38 +200,6 @@ textarea {
   border: 0;
 }
 
-.table {
-  width: 100%;
-  margin: 0 0 2em 0;
-  border-collapse: collapse;
-  text-align: left;
-}
-.table td {
-  padding: 0.75em;
-}
-.table th {
-  background: #ccc;
-  padding: 0.75em;
-}
-.table tbody tr td {
-  border-bottom: 1px solid #ccc;
-}
-.table tbody tr:first-child td {
-  border-top: 2px solid #666;
-}
-.table tbody tr:last-child td {
-  border-bottom: 2px solid #666;
-}
-
-.table tbody tr:nth-child(even) td {
-  background: #eee;
-}
-
-.table-alternate tbody td,
-.table-alternate tbody tr:first-child td,
-.table-alternate tbody tr:last-child td {
-  border: 1px solid #ddd;
-}
 
 .main-header {
   position: fixed;
@@ -311,7 +262,6 @@ textarea {
   border-radius: 5px;
 }
 
-
 .main-footer {
   position: fixed;
   bottom: 0;
@@ -355,7 +305,7 @@ textarea {
 
 .col-2 {
   width: 48%;
- float: left;
+  float: left;
 }
 .col-2:first-child {
   width: 48%;
