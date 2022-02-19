@@ -28,7 +28,7 @@ a {
   transition: color 0.2s linear, border 0.2s linear;
   text-decoration: none;
   border-bottom: 1px dotted;
-  color: #49bf9d;
+  color: #f9b419;
 }
 a:hover {
   border-bottom-color: transparent;
@@ -45,10 +45,7 @@ img {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -63,15 +60,6 @@ h2 {
 }
 h3 {
   font-size: 26px;
-}
-h4 {
-  font-size: 22px;
-}
-h5 {
-  font-size: 18px;
-}
-h6 {
-  font-size: 15px;
 }
 
 blockquote {
@@ -96,14 +84,6 @@ li {
   padding-left: 0.5em;
 }
 
-.hidden {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
-  display: block;
-}
-
 .ul-alternate {
   list-style-type: none;
   padding-left: 0;
@@ -111,6 +91,7 @@ li {
 .ul-alternate li {
   border-bottom: 2px solid #d8d8d8;
   padding-left: 0;
+  width: 56%;
 }
 .ul-alternate li:last-child {
   border: 0;
@@ -123,7 +104,7 @@ li {
 .ul-icons li {
   display: inline-block;
   font-size: 2em;
-  color: #49bf9d;
+  color: #f9b419;
 }
 
 input,
@@ -149,7 +130,7 @@ input[type="checkbox"] {
 }
 input:focus,
 textarea:focus {
-  border: 3px solid #49bf9d;
+  border: 3px solid #f9b419;
   outline: none;
 }
 textarea {
@@ -185,34 +166,26 @@ textarea {
   background-color: #3d3d3d;
 }
 
-.button-default-small {
-  font-size: 0.65em;
-}
-.button-default-big {
-  font-size: 1em;
-}
-.button-default-full {
-  display: block;
-  text-align: center;
-}
-
 .imagem-link {
   border: 0;
 }
 
-
 .main-header {
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   height: 100%;
   width: 35%;
-  padding: 124px 54px 72px;
+  padding: 90px 54px 32px;
   box-sizing: border-box;
   background-image: url(../images/overlay.png), url(../images/abstract.png);
   background-position: left top;
   background-size: auto, cover;
   text-align: right;
+}
+
+.jxlogo {
+  width: 60%;
 }
 
 .main-header-title {
@@ -227,6 +200,7 @@ textarea {
   font-weight: normal;
 }
 .main-header-link {
+  width: 87%;
   color: inherit;
   transition: 0.8s;
 }
@@ -240,6 +214,10 @@ textarea {
   margin-left: 35%;
   padding: 124px 54px 72px;
   box-sizing: border-box;
+}
+
+.formacao li {
+  padding: 20px;
 }
 
 .main-header-link img {
@@ -267,7 +245,7 @@ textarea {
   bottom: 0;
   width: 35%;
   left: 0;
-  padding: 0 54px 72px 0;
+  padding: 0 54px 32px 0;
   box-sizing: border-box;
   text-align: right;
 }
@@ -276,7 +254,7 @@ textarea {
   text-decoration: none;
 }
 .main-footer a:hover {
-  color: #49bf9d;
+  color: white;
 }
 .main-footer .ul-icons a {
   font-size: 0.75em;
