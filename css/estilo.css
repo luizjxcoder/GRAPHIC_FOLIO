@@ -36,10 +36,12 @@ a:hover {
 
 p {
   margin: 0 0 2em;
+  padding-right: 35%;
+  
 }
 
 img {
-  max-width: 50%;
+  max-width: 80%;
 }
 
 h1,
@@ -309,6 +311,7 @@ textarea {
   border-radius: 5px;
 }
 
+
 .main-footer {
   position: fixed;
   bottom: 0;
@@ -351,11 +354,11 @@ textarea {
 }
 
 .col-2 {
-  width: 49%;
+  width: 48%;
  float: left;
 }
 .col-2:first-child {
-  width: 49%;
+  width: 48%;
   margin-right: 0.1%;
 }
 .col-2:last-child {
