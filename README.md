@@ -1,4 +1,7 @@
 # GRAPHIC FOLIO
 <H2>PORTFÓLIO PESSOAL DE TRABALHOS EM ADOBE PHOTOSHOP E ILLUSTRATOR - USANDO HTML E CSS <H2>
-
 # link do projeto: https://strata-chi.vercel.app/
+
+
+
+
