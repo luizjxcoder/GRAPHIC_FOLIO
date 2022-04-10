@@ -18,7 +18,7 @@
 #
 ### :triangular_ruler: PROJETO
 ```
-<p Projeto Front-End para teste particular de habilidades, usando o básico de formatação HTML e CSS.
+<p Projeto Front-End para prática de habilidades, usando o básico de formatação HTML e CSS.
 Foi usado ferramentas como Adobe Photoshop e Illustrator para criar ilustrações e edições em imagens e VsCode como IDE.
 Projeto está hospedado no site Vercel, click no link abaixo e visualize meu projeto em seu navegador!
 </p>
