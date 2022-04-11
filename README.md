@@ -18,8 +18,9 @@
 #
 ### :triangular_ruler: PROJETO
 ```
-<p Projeto Front-End para prática de habilidades, usando o básico de formatação HTML e CSS.
-Foi usado ferramentas como Adobe Photoshop e Illustrator para criar ilustrações e edições em imagens e VsCode como IDE.
+<p> Projeto Front-End para prática de habilidades, usando o básico de formatação HTML e CSS.
+Projeto foi idelizado com intuito de apresentar meus trabalho mais recentes com edição e manipulação de imagens usando 
+Adobe Photoshop e Illustrator e técnicas de MattePainting usando mesa gráfica para pintura digital.
 Projeto está hospedado no site Vercel, click no link abaixo e visualize meu projeto em seu navegador!
 </p>
 ```
